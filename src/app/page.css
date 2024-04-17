@@ -1,0 +1,74 @@
+.input {
+  border: 3px solid;
+  border-radius: 15px;
+  font-size: x-large;
+  border-color: #27272a;
+  padding-left: 10px;
+  padding-top: 50px;
+  padding-bottom: 7px;
+  padding-right: 10px;
+  font-family: sans-serif;
+  padding: 15px;
+  margin: 20px;
+}
+#des {
+  width: 900px;
+}
+.addBtn {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: x-large;
+  padding: 15px;
+  font: bold;
+  border-radius: 10px;
+  margin: 20px;
+}
+.div {
+  padding: 8px;
+  background-color: rgb(226, 232, 240);
+}
+
+.tasks {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 5px;
+  align-items: center;
+}
+
+#title {
+  padding: 10px;
+  font-size: x-large;
+}
+
+#description {
+  padding: 10px;
+  padding-right: 50px;
+  font-size: medium;
+}
+
+#delBtn {
+  padding: 10px; /* Adjust padding as needed */
+
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: large;
+  margin-right: 25px;
+  float: right;
+  height: 60px;
+  width: 100px;
+  align-items: center;
+}
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form {
+  margin-top: 35px;
+}
