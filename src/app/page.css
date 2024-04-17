@@ -15,7 +15,7 @@
   width: 900px;
 }
 .addBtn {
-  background-color: black;
+  background-color: #333;
   color: white;
   border: none;
   font-size: x-large;
@@ -23,6 +23,11 @@
   font: bold;
   border-radius: 10px;
   margin: 20px;
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  background-color: #111;
 }
 .div {
   padding: 8px;
